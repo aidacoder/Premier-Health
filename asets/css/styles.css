@@ -63,3 +63,56 @@ a.nav-link:hover {
   text-align: right;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 1382px) {
+  .ph-header-phone-text {
+    font-size: 0.8rem;
+  }
+  .ph-header-phone {
+    height: 40px;
+  }
+  li.nav-item {
+    cursor: pointer;
+  }
+
+  li.nav-item.active {
+    cursor: pointer;
+    border-bottom: 2px solid #27a3a0;
+  }
+  a.nav-link {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.1;
+    text-align: left;
+    color: #3f5d7d;
+  }
+}
+@media (max-width:1005px) and (min-width:800px) {
+  .ph-header-phone-text {
+    font-size: 0.5rem;
+  }
+  .ph-header-phone {
+    height: 40px;
+  }
+  li.nav-item {
+    cursor: pointer;
+  }
+
+  li.nav-item.active {
+    cursor: pointer;
+    border-bottom: 1px solid #27a3a0;
+  }
+  a.nav-link {
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: #3f5d7d;
+  }
+}
+

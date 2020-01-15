@@ -1,0 +1,20 @@
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.header-area .header-top_area .short_contact_list {
+  text-align: center !important;
+  background: #27a3a0 !important;
+  float: right !important;
+  padding: 10px 2rem !important;
+  width: 10rem;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 10px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

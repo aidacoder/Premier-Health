@@ -2388,8 +2388,8 @@ h3 {
 
 /* line 122, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 30px;
-  background: #000000;
+  padding:1rem;
+  background: #27a3a0;
 }
 
 /* line 125, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
@@ -2400,7 +2400,7 @@ h3 {
 /* line 128, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 16px;
-  color: #919191;
+  color: #fff;
   margin-bottom: 0;
   font-weight: 400;
 }

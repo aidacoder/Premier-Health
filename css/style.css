@@ -2539,42 +2539,53 @@ h3 {
   top: 0px;
 }
 
-.Emergency_contact {
-  background-color: #f3fafc;
-  padding-top: 3em;
+.Emergency_contact .single_emergency {
+  padding: 91px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.ec-question {
-  color: #27a3a0;
+@media (max-width: 767px) {
+  .Emergency_contact .single_emergency {
+    padding: 40px;
+    display: block !important;
+  }
 }
 
-.ec-subtitle {
-  color: #3f5d7d;
+.Emergency_contact .single_emergency .info {
+  margin-right: 30px;
 }
 
-.ec-btn {
-  width: 10em;
-  padding: 0.5em;
-  background-color: #27a3a0;
-  color: #ffffff;
-  cursor: pointer;
+.Emergency_contact .single_emergency .info h3 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
 }
 
-.ec-btn:hover {
-  background-color: #3f5d7d;
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .Emergency_contact .single_emergency .info h3 {
+    font-size: 20px;
+  }
 }
 
-.ec-btn-container {
-  margin-top: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.Emergency_contact .single_emergency .info p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.Emergency_contact .single_emergency .info_button a {
+  border-radius: 30px;
+}
+
+.emergency_bg_1 {
+  background-image: url(../img/banner/emergency-1.png);
+}
+
+.emergency_bg_2 {
+  background-image: url(../img/banner/emergency-2.png);
 }
 
 /*=================== contact banner start ====================*/

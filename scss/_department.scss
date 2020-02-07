@@ -20,6 +20,15 @@
         @include transition(0.3s);
       }
     }
+    .department_thumb_service {
+      overflow: hidden;
+      
+      img {
+        width: 100%;
+        @include transform(scale(1));
+        @include transition(0.3s);
+      }
+    }
     .department_content {
       padding: 22px 30px 24px 30px;
       height: 15em;
@@ -43,7 +52,7 @@
         margin-bottom: 10px;
       }
       a.learn_more {
-        color: #5db2ff;
+        color: #27A3A0;
         font-size: 16px;
         &:hover {
           text-decoration: underline;
@@ -52,6 +61,11 @@
     }
     &:hover {
       .department_thumb {
+        img {
+          @include transform(scale(1.2));
+        }
+      }
+      .department_thumb_service {
         img {
           @include transform(scale(1.2));
         }

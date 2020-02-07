@@ -1288,39 +1288,39 @@ h3 {
 }
 
 .business_expert_area {
-  padding-bottom: 100px;
+  padding-top: 3em;
+  background-color: #27A3A0;
 }
 
 @media (max-width: 767px) {
   .business_expert_area {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 }
 
-.business_expert_area .business_info .icon i {
-  background: #5DB2FF;
-  width: 75px;
-  height: 75px;
-  display: inline-block;
-  color: #fff;
-  font-size: 35px;
-  text-align: center;
-  line-height: 75px;
-  border-radius: 50%;
+.business_expert_area .business_info {
+  margin-bottom: 3em;
 }
 
 .business_expert_area .business_info h3 {
   font-size: 20px;
   font-weight: 500;
-  color: #1F1F1F;
+  color: #FFFFFF;
   margin-top: 16px;
   margin-bottom: 14px;
 }
 
 .business_expert_area .business_info p {
-  color: #727272;
-  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 2em;
+  letter-spacing: 0.8px;
+  line-height: 25px;
   margin-bottom: 0;
+}
+
+.business_expert_area .business_thumb {
+  position: absolute;
+  bottom: 0;
 }
 
 @media (max-width: 767px) {
@@ -1369,23 +1369,6 @@ h3 {
 
 .business_expert_area .business_tabs_area .nav .nav-item a.active {
   background: #fff;
-}
-
-.business_expert_area .business_tabs_area #myTab {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.border_bottom {
-  border-bottom: 1px solid #E8E8E8;
-  padding-bottom: 60px;
-  padding-top: 60px;
 }
 
 .offers_area {
@@ -2271,6 +2254,18 @@ h3 {
   transition: 0.3s;
 }
 
+.our_department_area .single_department .department_thumb_service {
+  overflow: hidden;
+}
+
+.our_department_area .single_department .department_thumb_service img {
+  width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .our_department_area .single_department .department_content {
   padding: 22px 30px 24px 30px;
   height: 15em;
@@ -2300,7 +2295,7 @@ h3 {
 }
 
 .our_department_area .single_department .department_content a.learn_more {
-  color: #5db2ff;
+  color: #27A3A0;
   font-size: 16px;
 }
 
@@ -2309,6 +2304,11 @@ h3 {
 }
 
 .our_department_area .single_department:hover .department_thumb img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.our_department_area .single_department:hover .department_thumb_service img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }

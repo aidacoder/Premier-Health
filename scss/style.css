@@ -2724,58 +2724,84 @@ h3 {
   background-image: url(../img/testmonial/2.png);
 }
 
-.service_area {
-  background: #83C4FF;
+.slider_area_service .single_slider_service {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.service_area .single_service {
-  padding: 40px 30px;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .service_area .single_service {
-    padding: 40px 20px;
+@media (max-width: 767px) {
+  .slider_area_service .single_slider_service {
+    height: 420px;
   }
 }
 
-.service_area .single_service .icon {
-  margin-bottom: 10px;
+.slider_bg_2_service {
+  background-image: url(../img/banner/banner2.png);
 }
 
-.service_area .single_service .icon i {
-  font-size: 50px;
-  color: #fff;
+.container-fluid.service-container {
+  padding: 2em 0 !important;
 }
 
-.service_area .single_service h3 {
-  font-size: 26px;
-  font-weight: 500;
-  color: #fff;
+.service_thumb {
+  width: 100%;
+  height: 400px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .service_area .single_service h3 {
-    font-size: 20px;
-  }
+.service_thumb img {
+  width: 100%;
+  height: 400px;
 }
 
-.service_area .single_service p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 26px;
+.service_info {
+  width: 80%;
+  padding: 0 2em;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .service_area .single_service .boxed-btn3-white {
-    padding: 5px 10px;
-  }
+.service_info p {
+  font-size: 17px;
+  margin-top: 1em;
+  letter-spacing: 0.5px;
 }
 
-.service_area .col-xl-4:nth-child(2) .single_service {
-  background: #5DB2FF;
+.service_info .service_seemore {
+  padding: 0.8em;
+  width: 13em;
+  border-radius: 10px;
+  color: #ffff;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  background-color: #27a3a0;
+}
+
+.img-right {
+  padding: 7em 0;
+}
+
+.service_info_left {
+  margin-left: 20%;
+  width: 80%;
+  padding: 0 2em;
+}
+
+.service_info_left p {
+  font-size: 17px;
+  margin-top: 1em;
+  letter-spacing: 0.5px;
+}
+
+.service_info_left .service_seemore {
+  padding: 0.8em;
+  width: 13em;
+  border-radius: 10px;
+  color: #ffff;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  background-color: #27a3a0;
 }
 
 .expert_doctors_area {

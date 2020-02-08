@@ -698,7 +698,6 @@ h3 {
 }
 
 .header-area {
-  position: absolute;
   left: 0;
   right: 0;
   width: 100%;
@@ -1043,7 +1042,7 @@ h3 {
   width: 13rem;
   font-size: 15px;
   font-weight: 600;
-  margin-right: 10px !important;
+  margin-right: 25px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2479,13 +2478,26 @@ h3 {
   margin-bottom: 10px;
 }
 
-.our_department_area .single_department .department_content a.learn_more {
-  color: #27A3A0;
-  font-size: 16px;
+.our_department_area .single_department .department_content .learn-more-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.our_department_area .single_department .department_content a.learn_more:hover {
-  text-decoration: underline;
+.our_department_area .single_department .department_content .learn-more-div .learn-more-txt {
+  background-color: #27a3a0;
+  width: 12em;
+  padding: 0.5em 2em;
+  color: #fff !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 4px;
 }
 
 .our_department_area .single_department:hover .department_thumb img {

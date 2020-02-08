@@ -1,5 +1,5 @@
 .header-area {
-  position: absolute;
+//   position: fixed;
   left: 0;
   right: 0;
   width: 100%;
@@ -272,13 +272,14 @@
       width: 13rem;
       font-size: 15px;
       font-weight: 600;
-      margin-right: 10px !important;
+      margin-right: 25px !important;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
       letter-spacing: 1px;
       color: #ffff;
+
 
       @media #{$mobile_device} {
         text-align: center;

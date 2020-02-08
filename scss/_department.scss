@@ -22,7 +22,7 @@
     }
     .department_thumb_service {
       overflow: hidden;
-      
+
       img {
         width: 100%;
         @include transform(scale(1));
@@ -51,11 +51,19 @@
         margin-top: 5px;
         margin-bottom: 10px;
       }
-      a.learn_more {
-        color: #27A3A0;
-        font-size: 16px;
-        &:hover {
-          text-decoration: underline;
+      .learn-more-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .learn-more-txt {
+          background-color: #27a3a0;
+          width: 12em;
+          padding: 0.5em 2em;
+          color: #fff !important;
+          letter-spacing: 1px;
+          font-weight: 500;
+          border-radius: 4px;
         }
       }
     }

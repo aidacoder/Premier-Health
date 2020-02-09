@@ -200,7 +200,7 @@
         letter-spacing: 0.2px;
       }
     }
-    
+
     span {
       font-weight: 400;
       letter-spacing: 0.5px;
@@ -235,5 +235,30 @@
   .icon-contactus {
     width: 30px;
     height: 30px;
+  }
+}
+
+.title_refer_patient {
+  padding-bottom: 1em;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #3f5d7d;
+}
+.single_contactus {
+  padding: 0 10em;
+}
+@media #{$mobile_device} {
+  .single_contactus {
+    padding: 0 !important;
+  }
+}
+@media #{$mid_device} {
+  .single_contactus {
+    padding: 0 !important;
+  }
+}
+@media #{$tablet_device} {
+  .single_contactus {
+    padding: 0 !important;
   }
 }

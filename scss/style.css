@@ -3404,6 +3404,35 @@ h3 {
   }
 }
 
+.title_refer_patient {
+  padding-bottom: 1em;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #3f5d7d;
+}
+
+.single_contactus {
+  padding: 0 10em;
+}
+
+@media (max-width: 767px) {
+  .single_contactus {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .single_contactus {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .single_contactus {
+    padding: 0 !important;
+  }
+}
+
 .sample-text-area {
   background: #fff;
   padding: 100px 0 70px 0;

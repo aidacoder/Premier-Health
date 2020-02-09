@@ -328,18 +328,18 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #009DFF;
+  border: 1px solid #27a3a0;
   letter-spacing: 3px;
   text-align: center;
-  color: #009DFF !important;
+  color: #27a3a0 !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .boxed-btn:hover {
-  background: #009DFF;
+  background: #27a3a0;
   color: #fff !important;
-  border: 1px solid #009DFF;
+  border: 1px solid #27a3a0;
 }
 
 .boxed-btn:focus {
@@ -3137,7 +3137,8 @@ h3 {
   margin-right: 20px;
 }
 
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -3170,7 +3171,38 @@ h3 {
 }
 
 .form-contact .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 30px;
+}
+
+.form-contact .form-group .contactus {
+  width: 35%;
+}
+
+@media (max-width: 767px) {
+  .form-contact .form-group .contactus {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .form-contact .form-group .contactus {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-contact .form-group .contactus {
+    width: 50%;
+  }
 }
 
 .form-contact .form-control {
@@ -3280,6 +3312,96 @@ h3 {
 
 .contact-section .btn_2:hover {
   background-color: #ff5e13;
+}
+
+.nice-select {
+  border-radius: 0px !important;
+  height: 50px !important;
+  margin: 1em 0 !important;
+  color: #999999 !important;
+}
+
+.contact_pages_container {
+  background-color: #f3fafc;
+  padding-top: 3em;
+}
+
+.contact_pages_container h3 {
+  color: #27a3a0;
+}
+
+.contact_pages_container .contactus-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_pages_container .contactus-info .contact-info-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .contact_pages_container .contactus-info .contact-info-text {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .contact_pages_container .contactus-info span {
+    font-weight: 400;
+    letter-spacing: 0.2px;
+  }
+}
+
+.contact_pages_container .contactus-info span {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.contact_pages_container .icon-contactus {
+  width: 40px;
+  height: 40px;
+  background-color: #27a3a0;
+  color: white;
+  margin: 0 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .icon-contactus {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .icon-contactus {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .icon-contactus {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .sample-text-area {
@@ -4353,7 +4475,7 @@ h6 {
 
 .form-select .nice-select {
   border: none;
-  border-radius: 0px;
+  border-radius: 0px !important;
   height: 40px;
   background: #f9f9ff;
   padding-left: 45px;

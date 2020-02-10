@@ -1,174 +1,232 @@
-.welcome_docmed_area{
-    padding-top: 120px;
-    padding-bottom: 220px;
-    @media #{$mobile_device}{
-        padding-bottom: 100px;
+// .welcome_docmed_area{
+//     padding-top: 120px;
+//     padding-bottom: 220px;
+//     @media #{$mobile_device}{
+//         padding-bottom: 100px;
+//     }
+//     @media #{$mid_device}{
+//         padding-bottom: 100px;
+//     }
+//     @media #{$tablet_device}{
+//         padding-bottom: 100px;
+//     }
+//     .welcome_thumb{
+//         position: relative;
+//         .thumb_1{
+//             left: 0;
+//             img{
+//                 width: 60%;
+//                 @media #{$mobile_device} {
+//                     width: 100%;
+//                 }
+//             }
+//         }
+//         .thumb_2{
+//             position: absolute;
+//             bottom: -94px;
+//             right: -37px;
+//             @media #{$mobile_device} {
+//                 position: absolute;
+//                 left: 0;
+//                 top: 0;
+//                 display: none;
+//             }
+//             @media #{$tablet_device} {
+//                 position: absolute;
+//                 right: 0;
+//                 bottom: -40px;
+//             }
+//             img{
+//                 width: 89%;
+//                 @media #{$tablet_device} {
+//                     width: 100%;
+//                 }
+//             }
+//         }
+//     }
+//     .welcome_docmed_info{
+//         padding-left: 90px;
+//         @media #{$mobile_device} {
+//             padding-left: 0;
+//             margin-top: 40px;
+//         }
+//         @media #{$tablet_device} {
+//             padding-left: 0;
+//             margin-top: 100px;
+//         }
+//         h2{
+//             font-size: 18px;
+//             font-weight: 400;
+//             color: #1F1F1F;
+//             margin-bottom: 40px;
+//             position: relative;
+//             z-index: 9;
+//             padding-bottom: 9px;
+//         &:before{
+//             content: "";
+//             position: absolute;
+//             left: 0;
+//             bottom: 0;
+//             height: 2px;
+//             width: 50px;
+//             background: #5DB2FF;
+//         }
+
+//         }
+//         h3{
+//             font-weight: 500;
+//             font-size: 36px;
+//             margin-bottom: 10px;
+//             @media #{$mobile_device}{
+//                 font-size: 30px;
+//             }
+//             br{
+//                 @media #{$mobile_device} {
+//                     display: none;
+//                 }
+//             }
+//         }
+//         p{
+//             font-size: 16px;
+//             color: #727272;
+//             line-height: 28px;
+//         }
+//         ul{
+//             margin-bottom: 40px;
+//             margin-top: 25px;
+//             li{
+//                 color: #727272;
+//                 font-size: 16px;
+//                 line-height: 28px;
+//                 i{
+//                     margin-right: 10px;
+//                     color: #5DB2FF;
+//                     font-weight: 16px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.about-us-container {
+  padding-bottom: 2em;
+  p {
+    margin-top: 2em;
+  }
+  .about_img {
+    width: 100%;
+
+    img {
+      width: 600px;
+      height: 200px;
+
+      @media #{$mobile_device} {
+        width: 500px;
+        height: 170px;
+      }
+      @media #{$mid_device} {
+        width: 450px;
+        height: 150px;
+      }
+      @media #{$tablet_device} {
+        width: 350px;
+        height: 140px;
+      }
     }
-    @media #{$mid_device}{
-        padding-bottom: 100px;
+  }
+}
+.visi-misi {
+  width: 100%;
+  padding: 4em 0;
+  background-color: #27a4a2;
+  h3 {
+    color: #ffffff;
+    padding-top: 1em;
+  }
+  p {
+    color: #ffffff;
+  }
+}
+.aboutuss_container {
+  h3 {
+    color: #27a4a2;
+    padding-top: 2em;
+  }
+  .contactus-info {
+    display: flex;
+    padding-top: 2em;
+    flex-direction: row;
+    // align-items: center;
+    img {
+      width: 30px;
+      height: 30px;
     }
-    @media #{$tablet_device}{
-        padding-bottom: 100px;
+    .content {
+      margin-left: 1em;
     }
-    .welcome_thumb{
-        position: relative;
-        .thumb_1{
-            left: 0;
-            img{
-                width: 60%;
-                @media #{$mobile_device} {
-                    width: 100%;
-                }
-            }
-        }
-        .thumb_2{
-            position: absolute;
-            bottom: -94px;
-            right: -37px;
-            @media #{$mobile_device} {
-                position: absolute;
-                left: 0;
-                top: 0;
-                display: none;
-            }
-            @media #{$tablet_device} {
-                position: absolute;
-                right: 0;
-                bottom: -40px;
-            }
-            img{
-                width: 89%;
-                @media #{$tablet_device} {
-                    width: 100%;
-                }
-            }
-        }
-    }
-    .welcome_docmed_info{
-        padding-left: 90px;
-        @media #{$mobile_device} {
-            padding-left: 0;
-            margin-top: 40px;
-        }
-        @media #{$tablet_device} {
-            padding-left: 0;
-            margin-top: 100px;
-        }
-        h2{
-            font-size: 18px;
-            font-weight: 400;
-            color: #1F1F1F;
-            margin-bottom: 40px;
-            position: relative;
-            z-index: 9;
-            padding-bottom: 9px;
-        &:before{
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            height: 2px;
-            width: 50px;
-            background: #5DB2FF;
-        }
-            
-        }
-        h3{
-            font-weight: 500;
-            font-size: 36px;
-            margin-bottom: 10px;
-            @media #{$mobile_device}{
-                font-size: 30px;
-            }
-            br{
-                @media #{$mobile_device} {
-                    display: none;
-                }
-            }
-        }
-        p{
-            font-size: 16px;
-            color: #727272;
-            line-height: 28px;
-        }
-        ul{
-            margin-bottom: 40px;
-            margin-top: 25px;
-            li{
-                color: #727272;
-                font-size: 16px;
-                line-height: 28px;
-                i{
-                    margin-right: 10px;
-                    color: #5DB2FF;
-                    font-weight: 16px;
-                }
-            }
-        }
-    }
+  }
+  padding-bottom: 2em;
 }
 
-.business_expert_area{
-    padding-top: 3em;
-    background-color: #27A3A0;
+.business_expert_area {
+  padding-top: 3em;
+  background-color: #27a3a0;
 
+  @media #{$mobile_device} {
+    padding-bottom: 20px;
+  }
+  .business_info {
+    margin-bottom: 3em;
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #ffffff;
+      margin-top: 16px;
+      margin-bottom: 14px;
+    }
+    p {
+      color: #ffffff;
+      margin-top: 2em;
+      letter-spacing: 0.8px;
+      line-height: 25px;
+      margin-bottom: 0;
+    }
+  }
+  .business_thumb {
+    position: absolute;
+    bottom: 0;
     @media #{$mobile_device} {
-        padding-bottom: 20px;
+      padding-top: 20px;
     }
-    .business_info{
-        margin-bottom: 3em;
-        h3{
-            font-size: 20px;
-            font-weight: 500;
-            color: #FFFFFF;
-            margin-top: 16px;
-            margin-bottom: 14px;
-        }
-        p{  
-            color: #FFFFFF;
-            margin-top: 2em;
-            letter-spacing: 0.8px;
-            line-height: 25px;
-            margin-bottom: 0;
-        }   
+    img {
+      width: 100%;
     }
-    .business_thumb{
-        position: absolute;
-        bottom: 0;
-        @media #{$mobile_device}{
-            padding-top: 20px;
+  }
+  .business_tabs_area {
+    background: #f5fbff;
+    .nav {
+      .nav-item {
+        width: 33.3333333334%;
+        @media #{$mobile_device} {
+          width: 100%;
         }
-        img{
-            width: 100%;
+        a {
+          font-size: 20px;
+          font-weight: 400;
+          color: #1f1f1f;
+          padding: 35px 0px 35px 40px;
+          @media #{$mobile_device} {
+            padding: 10px;
+          }
+          @media #{$tablet_device} {
+            padding: 20px;
+            font-size: 15px;
+          }
+          &.active {
+            background: #fff;
+          }
         }
+      }
     }
-    .business_tabs_area{
-        background: #F5FBFF;
-        .nav{
-            .nav-item{
-                width: 33.3333333334%;
-                @media #{$mobile_device} {
-                    width: 100%;
-                }
-                a{
-                    font-size: 20px;
-                    font-weight: 400;
-                    color: #1F1F1F;
-                    padding: 35px 0px 35px 40px;
-                    @media #{$mobile_device} {
-                        padding: 10px;
-                    }
-                    @media #{$tablet_device} {
-                        padding: 20px;
-                        font-size: 15px;
-                    }
-                    &.active{
-                        background: #fff;
-                    }
-                }   
-            }
-        }
-      
-    }
-
+  }
 }

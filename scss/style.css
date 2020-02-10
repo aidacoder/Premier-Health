@@ -1318,162 +1318,91 @@ h3 {
   }
 }
 
-.welcome_docmed_area {
-  padding-top: 120px;
-  padding-bottom: 220px;
+.about-us-container {
+  padding-bottom: 2em;
+}
+
+.about-us-container p {
+  margin-top: 2em;
+}
+
+.about-us-container .about_img {
+  width: 100%;
+}
+
+.about-us-container .about_img img {
+  width: 600px;
+  height: 200px;
 }
 
 @media (max-width: 767px) {
-  .welcome_docmed_area {
-    padding-bottom: 100px;
+  .about-us-container .about_img img {
+    width: 500px;
+    height: 170px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .welcome_docmed_area {
-    padding-bottom: 100px;
+  .about-us-container .about_img img {
+    width: 450px;
+    height: 150px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .welcome_docmed_area {
-    padding-bottom: 100px;
+  .about-us-container .about_img img {
+    width: 350px;
+    height: 140px;
   }
 }
 
-.welcome_docmed_area .welcome_thumb {
-  position: relative;
+.visi-misi {
+  width: 100%;
+  padding: 4em 0;
+  background-color: #27a4a2;
 }
 
-.welcome_docmed_area .welcome_thumb .thumb_1 {
-  left: 0;
+.visi-misi h3 {
+  color: #ffffff;
+  padding-top: 1em;
 }
 
-.welcome_docmed_area .welcome_thumb .thumb_1 img {
-  width: 60%;
+.visi-misi p {
+  color: #ffffff;
 }
 
-@media (max-width: 767px) {
-  .welcome_docmed_area .welcome_thumb .thumb_1 img {
-    width: 100%;
-  }
+.aboutuss_container {
+  padding-bottom: 2em;
 }
 
-.welcome_docmed_area .welcome_thumb .thumb_2 {
-  position: absolute;
-  bottom: -94px;
-  right: -37px;
+.aboutuss_container h3 {
+  color: #27a4a2;
+  padding-top: 2em;
 }
 
-@media (max-width: 767px) {
-  .welcome_docmed_area .welcome_thumb .thumb_2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-  }
+.aboutuss_container .contactus-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .welcome_docmed_area .welcome_thumb .thumb_2 {
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-  }
+.aboutuss_container .contactus-info img {
+  width: 30px;
+  height: 30px;
 }
 
-.welcome_docmed_area .welcome_thumb .thumb_2 img {
-  width: 89%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .welcome_docmed_area .welcome_thumb .thumb_2 img {
-    width: 100%;
-  }
-}
-
-.welcome_docmed_area .welcome_docmed_info {
-  padding-left: 90px;
-}
-
-@media (max-width: 767px) {
-  .welcome_docmed_area .welcome_docmed_info {
-    padding-left: 0;
-    margin-top: 40px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .welcome_docmed_area .welcome_docmed_info {
-    padding-left: 0;
-    margin-top: 100px;
-  }
-}
-
-.welcome_docmed_area .welcome_docmed_info h2 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #1F1F1F;
-  margin-bottom: 40px;
-  position: relative;
-  z-index: 9;
-  padding-bottom: 9px;
-}
-
-.welcome_docmed_area .welcome_docmed_info h2:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 50px;
-  background: #5DB2FF;
-}
-
-.welcome_docmed_area .welcome_docmed_info h3 {
-  font-weight: 500;
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 767px) {
-  .welcome_docmed_area .welcome_docmed_info h3 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .welcome_docmed_area .welcome_docmed_info h3 br {
-    display: none;
-  }
-}
-
-.welcome_docmed_area .welcome_docmed_info p {
-  font-size: 16px;
-  color: #727272;
-  line-height: 28px;
-}
-
-.welcome_docmed_area .welcome_docmed_info ul {
-  margin-bottom: 40px;
-  margin-top: 25px;
-}
-
-.welcome_docmed_area .welcome_docmed_info ul li {
-  color: #727272;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.welcome_docmed_area .welcome_docmed_info ul li i {
-  margin-right: 10px;
-  color: #5DB2FF;
-  font-weight: 16px;
+.aboutuss_container .contactus-info .content {
+  margin-left: 1em;
 }
 
 .business_expert_area {
   padding-top: 3em;
-  background-color: #27A3A0;
+  background-color: #27a3a0;
 }
 
 @media (max-width: 767px) {
@@ -1489,13 +1418,13 @@ h3 {
 .business_expert_area .business_info h3 {
   font-size: 20px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 16px;
   margin-bottom: 14px;
 }
 
 .business_expert_area .business_info p {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 2em;
   letter-spacing: 0.8px;
   line-height: 25px;
@@ -1518,7 +1447,7 @@ h3 {
 }
 
 .business_expert_area .business_tabs_area {
-  background: #F5FBFF;
+  background: #f5fbff;
 }
 
 .business_expert_area .business_tabs_area .nav .nav-item {
@@ -1534,7 +1463,7 @@ h3 {
 .business_expert_area .business_tabs_area .nav .nav-item a {
   font-size: 20px;
   font-weight: 400;
-  color: #1F1F1F;
+  color: #1f1f1f;
   padding: 35px 0px 35px 40px;
 }
 

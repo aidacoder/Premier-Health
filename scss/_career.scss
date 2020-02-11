@@ -1,0 +1,51 @@
+.career-apply-container {
+  padding-top: 2em;
+  background-color: #dee6e8;
+  h3 {
+    font-weight: 300;
+    color: #27a3a0;
+  }
+  .apply_now {
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    .btn {
+      background-color: #27a3a0;
+      padding: 0.6em 2.4em;
+    }
+  }
+}
+
+.slider_area_service {
+  .single_slider_career {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @media #{$mobile_device} {
+      height: 300px;
+    }
+  }
+}
+.slider_bg_2_service {
+  background-image: url(../img/banner/banner2.png);
+}
+.about-us-container {
+  .benefitlist {
+    display: flex;
+    padding: 0.5em 0;
+    align-items: center;
+    flex-direction: row;
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    h5{
+        margin-left: 0.5em;
+        margin-top: 3px;
+        font-weight: 500;
+    }
+  }
+}

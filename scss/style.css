@@ -1484,6 +1484,74 @@ h3 {
   background: #fff;
 }
 
+.career-apply-container {
+  padding-top: 2em;
+  background-color: #dee6e8;
+}
+
+.career-apply-container h3 {
+  font-weight: 300;
+  color: #27a3a0;
+}
+
+.career-apply-container .apply_now {
+  color: white;
+  font-size: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.career-apply-container .apply_now .btn {
+  background-color: #27a3a0;
+  padding: 0.6em 2.4em;
+}
+
+.slider_area_service .single_slider_career {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 767px) {
+  .slider_area_service .single_slider_career {
+    height: 300px;
+  }
+}
+
+.slider_bg_2_service {
+  background-image: url(../img/banner/banner2.png);
+}
+
+.about-us-container .benefitlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about-us-container .benefitlist img {
+  width: 30px;
+  height: 30px;
+}
+
+.about-us-container .benefitlist h5 {
+  margin-left: 0.5em;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
 .offers_area {
   padding-bottom: 100px;
 }

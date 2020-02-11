@@ -835,6 +835,12 @@ h3 {
   padding: 12px 0;
 }
 
+.header-area .main-header-area .main-menu ul .active {
+  border-bottom-width: 2px;
+  border-bottom-color: #27a3a0;
+  border-bottom-style: inset;
+}
+
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
@@ -909,7 +915,7 @@ h3 {
 }
 
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #1f1f1f;
+  color: #27a3a0;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu {
@@ -946,7 +952,7 @@ h3 {
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #000;
+  color: #27a3a0;
 }
 
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
@@ -1030,7 +1036,7 @@ h3 {
 }
 
 .header-area .header-top_area .social_media_links a:hover {
-  color: #5db2ff;
+  color: #27a3a0;
 }
 
 .header-area .header-top_area .short_contact_list {
@@ -1057,6 +1063,8 @@ h3 {
       justify-content: space-around;
   letter-spacing: 1px;
   color: #ffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 @media (max-width: 767px) {

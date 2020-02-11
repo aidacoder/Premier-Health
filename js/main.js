@@ -1,5 +1,13 @@
 (function($) {
   "use strict";
+  $(window).load(function(){
+
+    var url = window.location.href;
+    $('nav li').find('.active').removeClass('active');
+    $('nav li a').filter(function(){
+        return this.href == url;
+    }).parent().addClass('active');
+});
   // TOP Menu Sticky
   $(window).on("scroll", function() {
     var scroll = $(window).scrollTop();
@@ -22,6 +30,8 @@
         openedSymbol: "-"
       });
     }
+
+
     // blog-menu
     // $('ul#blog-menu').slicknav({
     //   prependTo: ".blog_menu"

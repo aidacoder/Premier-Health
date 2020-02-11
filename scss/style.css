@@ -698,11 +698,12 @@ h3 {
 }
 
 .header-area {
+  position: fixed;
   left: 0;
   right: 0;
   width: 100%;
   top: 0;
-  z-index: 200 !important;
+  z-index: 20000 !important;
 }
 
 @media (max-width: 767px) {
@@ -1094,6 +1095,21 @@ h3 {
 .header-area .header-top_area .short_contact_list ul li a i {
   color: #5db2ff;
   margin-right: 7px;
+}
+
+.index-padding {
+  color: white;
+  margin-top: 4em;
+}
+
+.aboutus-padding {
+  color: white;
+  margin-top: 4em;
+}
+
+.contactus-padding {
+  color: white;
+  margin-top: 6em;
 }
 
 .slider_bg_1 {
@@ -2191,8 +2207,7 @@ h3 {
 }
 
 .footer .footer_top {
-  padding-top: 145px;
-  padding-bottom: 129px;
+  padding: 3em 0;
   background: #3F5D7D;
 }
 
@@ -2220,7 +2235,7 @@ h3 {
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 1em;
 }
 
 @media (max-width: 767px) {

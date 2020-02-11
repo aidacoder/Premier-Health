@@ -1,10 +1,10 @@
 .header-area {
-  //   position: fixed;
+  position: fixed;
   left: 0;
   right: 0;
   width: 100%;
   top: 0;
-  z-index: 200 !important;
+  z-index: 20000 !important;
   // padding-top: 28px;
   @media #{$mobile_device} {
     padding-top: 0;
@@ -111,7 +111,7 @@
       ul {
         .active {
           border-bottom-width: 2px;
-          border-bottom-color: #27a3a0 ;
+          border-bottom-color: #27a3a0;
           border-bottom-style: inset;
         }
         li {
@@ -175,7 +175,7 @@
               }
             }
             &:hover {
-              color: #27a3a0 ;
+              color: #27a3a0;
             }
           }
           .submenu {
@@ -203,7 +203,7 @@
                 }
               }
               &:hover a {
-                color: #27a3a0 ;
+                color: #27a3a0;
               }
             }
           }
@@ -264,7 +264,7 @@
         color: #c7c7c7;
         margin-right: 12px;
         &:hover {
-          color: #27a3a0 ;
+          color: #27a3a0;
         }
       }
     }
@@ -311,4 +311,18 @@
       }
     }
   }
+}
+
+
+.index-padding{
+  color: white;
+  margin-top: 4em;
+}
+.aboutus-padding{
+  color: white;
+  margin-top: 4em;
+}
+.contactus-padding{
+  color: white;
+  margin-top: 6em;
 }

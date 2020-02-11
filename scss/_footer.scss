@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     .footer_top{
-        padding-top: 145px;
-        padding-bottom: 129px;
+        padding: 3em 0;
+        
         background: #3F5D7D;
         @media #{$mobile_device} {
             padding-top: 60px;
@@ -23,7 +23,7 @@
                 font-weight: 400;
                 color: #fff;
                 text-transform: capitalize;
-                margin-bottom: 40px;
+                margin-bottom: 1em;
                 @media #{$mobile_device} {
                     margin-bottom: 20px;
                 }
